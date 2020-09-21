@@ -4,7 +4,7 @@ from urllib.parse import unquote as decode_url
 import re
 from urllib.parse import urljoin
 
-from selector import Selector
+from .selector import Selector
 
 
 def get(url, params=None, **kwargs):

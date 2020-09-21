@@ -3,10 +3,9 @@ from setuptools import setup, find_packages
 
 setup(
     name="webspidy",
-    version="0.0.1",
+    version="1.0.1",
     description="A human friendly web crawling library",
     py_module=["webspidy"],
-    package_dir={"": "src"},
     license="MIT",
     keywords="web,spider,crawler",
     packages=find_packages(),
